@@ -44,7 +44,7 @@ const HeroAbout = ({ main }) => (
       'md:prose-headings:my-6 md:prose-p:block'
     )}
   >
-    <ContentRenderer source={main} />
+    <ContentRenderer source={main}/>
   </Reveal>
 )
 
