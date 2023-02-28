@@ -12,7 +12,6 @@ class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
           <link rel="manifest" href="/favicon/site.webmanifest" />
           <link rel="alternate" type="application/rss+xml" href="/feed/blog/feed.xml" />
-          <link href="'https://fonts.googleapis.com/css2?family=Song+Myung&display=swap'" rel="stylesheet"/>
         </Head>
         <body className="scrollbar-thin scrollbar-thumb-omega-500 hover:scrollbar-thumb-omega-600">
           <Main />
