@@ -13,7 +13,7 @@ images:
     alt: my photo
 ---
 
-# <Typewriter>Sanai Club Inc.</Typewriter>
+## <Typewriter>Sanai Club Inc.</Typewriter>
 
 # <span>(주)</span> *사나이클럽*
 
