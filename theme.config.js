@@ -6,7 +6,7 @@
  * Icons from react-icons: https://react-icons.github.io/react-icons
  */
 
-import { SiKakaotalk } from 'react-icons/Si'
+import { SiKakaotalk } from 'react-icons/si'
 import { TfiHome, TfiPencilAlt } from 'react-icons/tfi'
 import { SlUser, SlBriefcase, SlBookOpen, SlRocket } from 'react-icons/sl'
 
