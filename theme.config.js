@@ -6,9 +6,9 @@
  * Icons from react-icons: https://react-icons.github.io/react-icons
  */
 
-import { IoLogoTwitter, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
+import { SiKakaotalk } from 'react-icons/si'
 import { TfiHome, TfiPencilAlt } from 'react-icons/tfi'
-import { SlUser, SlBriefcase, SlEnvolope, SlTrophy } from 'react-icons/sl'
+import { SlUser, SlBriefcase, SlBookOpen, SlRocket } from 'react-icons/sl'
 
 /**
  * Main Menu Items
@@ -16,53 +16,24 @@ import { SlUser, SlBriefcase, SlEnvolope, SlTrophy } from 'react-icons/sl'
 
 export const menu = [
   {
-    name: 'Home',
+    name: '홈',
     slug: '/',
     Icon: TfiHome,
-    number: 1,
   },
   {
-    name: 'Home (2)',
-    slug: '/index-2',
-    Icon: TfiHome,
-    number: 2,
+    name: '사나이 프로젝트',
+    slug: '/projects',
+    Icon: SlRocket,
   },
   {
-    name: 'Home (3)',
-    slug: '/index-3',
-    Icon: TfiHome,
-    number: 3,
-  },
-  {
-    name: 'Home (4)',
-    slug: '/index-4',
-    Icon: TfiHome,
-    number: 4,
-  },
-  {
-    name: 'About',
+    name: '크루 모집',
     slug: '/about',
     Icon: SlUser,
   },
   {
-    name: 'Services',
-    slug: '/services',
-    Icon: SlBriefcase,
-  },
-  {
-    name: 'Articles',
-    slug: '/blog',
-    Icon: TfiPencilAlt,
-  },
-  {
-    name: 'Projects',
-    slug: '/projects',
-    Icon: SlTrophy,
-  },
-  {
-    name: 'Contact',
+    name: '문의',
     slug: '/contact',
-    Icon: SlEnvolope,
+    Icon: TfiPencilAlt,
   },
 ]
 
@@ -72,20 +43,10 @@ export const menu = [
 
 export const social = [
   {
-    name: 'Twitter',
-    url: 'https://www.twitter.com/',
-    Icon: IoLogoTwitter,
-  },
-  {
-    name: 'Instagram',
-    url: 'https://www.instagram.com/',
-    Icon: IoLogoInstagram,
-  },
-  {
-    name: 'LinkedIn',
-    url: 'https://www.linkedin.com/',
-    Icon: IoLogoLinkedin,
-  },
+    name: '카카오톡',
+    url: 'http://pf.kakao.com/_QAxnxmxj/chat',
+    Icon: SiKakaotalk,
+  }
 ]
 
 /**
