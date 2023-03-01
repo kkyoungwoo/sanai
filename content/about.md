@@ -8,70 +8,72 @@ seo:
 
 
 ---personal_info
-name: CARL HANSON
+name: 크루 상시모집
 images:
   - src: /about.jpg
     alt: my image
 ---
-##### <span>01.</span> About me
 
-Lorem consequat reprehenderit ipsum nulla qui pariatur tempor officia ad. Excepteur excepteur pariatur ad laborum labore reprehenderit. Do eiusmod sit pariatur nisi. Quis non dolor amet magna eu adipisicing est ex.
+(주)사나이클럽은
 
-##### <span>02.</span> Interests and Hobbies
+###### <span>사</span>회 깊숙한 곳의 문제를 해결하는 기업으로
 
-Ad Lorem et amet exercitation enim culpa nulla laboris eu eiusmod. Irure fugiat sunt esse consequat consectetur eu laboris voluptate eiusmod dolor. Nisi velit consectetur deserunt esse aliquip esse officia consequat eiusmod voluptate cupidatat id.
+###### <span>나</span>이를 불문하고 도전을 두려워 않는 크루들이
 
-##### <span>03.</span> Framework Preferences
+###### <span>이</span> 세상 속 여러가지 사회문제를 해결합니다
 
-Ullamco cillum pariatur qui eu. Aliqua quis in adipisicing nulla do. Reprehenderit cupidatat eiusmod cupidatat ut ipsum pariatur Lorem incididunt. Veniam sunt reprehenderit consectetur ullamco laborum magna sit aliquip minim esse.
-
-
+#### 사나이클럽의 <span>크루</span>가 되어주세요
 
 ---cta
 ---
-## Ready to discuss your project?
+## 남녀 무관
 
-Let's super-charge your business today!
+우리는 넘어져도 씩씩하게 일어날 수 있습니다
 
 <Button href="/contact">
-  Get a Free Price Quote
+  ##### 지원하기
 </Button>
 
 
 
 ---skills_header
-title: I'm Specialized in
+title: Recruitment of Crews
 list:
-  - Front-End Design
-  - Back-End Development
-  - Modern Frameworks
+  - Salse Crew
+  - Develop Crew
+  - Design Crew
+  - Marketing crew
 ---
 
 
 
 ---skills[0]
-title: Back-End Development
+title: 개발 크루 인재상
 list:
-  - title: Node.js
-    level: 1
-    icon:
-      src: /icons/nodedotjs.svg
-  - title: Prisma
+  - title: Next.js
     level: 3
     icon:
-      src: /icons/prisma.svg
-  - title: Svelte
-    level: 4
-    icon:
-      src: /icons/svelte.svg
-  - title: HTML5
+      src: /icons/nextjs.svg
+  - title: TypeScript
     level: 5
     icon:
-      src: /icons/html5.svg
-  - title: Solidity
+      src: /icons/typescript.svg
+  - title: Nest.js
+    level: 3
+    icon:
+      src: /icons/nestjs.svg
+  - title: PostgreSQL
     level: 2
     icon:
-      src: /icons/solidity.svg
+      src: /icons/postgresql.svg
+  - title: Kakao I Cloud
+    level: 3
+    icon:
+      src: /icons/kakaocloud.svg
+  - title: Git
+    level: 5
+    icon:
+      src: /icons/git.svg
 ---
 
 
@@ -80,62 +82,93 @@ list:
 ########################################
 ### Skills
 ########################################
-title: Front-End UI/UX Design
+title: 디자인 크루 인재상
 list:
-  - title: JavaScript
-    level: 4
-    icon:
-      src: /icons/javascript.svg
-  - title: React
-    level: 3
-    icon:
-      src: /icons/react.svg
-  - title: Redux
-    level: 4
-    icon:
-      src: /icons/redux.svg
-  - title: GraphQL
-    level: 2
-    icon:
-      src: /icons/graphql.svg
-  - title: Node.js
-    level: 4
-    icon:
-      src: /icons/nodedotjs.svg
-  - title: Prisma
+  - title: Figma
     level: 5
     icon:
-      src: /icons/prisma.svg
+      src: /icons/figma.svg
+  - title: Illust
+    level: 4
+    icon:
+      src: /icons/illustrator.svg
+  - title: Photoshop
+    level: 3
+    icon:
+      src: /icons/photoshop.svg
+---
+
+
+
+---skills[2]
+########################################
+### Skills
+########################################
+title: 마케팅 크루 인재상
+list:
+  - title: MS Teams
+    level: 3
+    icon:
+      src: /icons/microsoft.svg
+  - title: Power BI
+    level: 5
+    icon:
+      src: /icons/powerbi.svg
+  - title: GA4
+    level: 3
+    icon:
+      src: /icons/ga.svg
+  - title: Notion
+    level: 3
+    icon:
+      src: /icons/notion.svg
+  - title: Miro
+    level: 3
+    icon:
+      src: /icons/miro.svg
+  - title: python
+    level: 1
+    icon:
+      src: /icons/python.svg
+---
+
+
+
+---skills[3]
+########################################
+### Skills
+########################################
+title: 영업 크루 인재상
+list:
+  - title: 시간 약속
+    level: 5
+    icon:
+      src: /icons/time.svg
+  - title: 배우려는 의지
+    level: 5
+    icon:
+      src: /icons/courage.svg
 ---
 
 
 
 ---history[0]
-title: Employment
+title: Investment Round
 list:
-  - name: MetaVerse Inc.
-    description: Web3 Developer
-    date: 2020-Present
-  - name: Vircil Intl Co..
-    description: Back-End Developer and Designer
-    date: 2018-2020
-  - name: Crowdcube Inc.
-    description: Technical Support
-    date: 2018-2015
+  - name: 데모데이 준비중
+    description: Seed
+    date: 2023-4
 ---
 
 
 
 ---history[1]
-title: Education
+title: Award Details
 list:
-  - name: Stanford university
-    description: MSc (Computer Science)
-    date: 2006-2010
-  - name: University of Los Angeles
-    description: MSc (Human Computer Interaction)
-    date: 2010-2014
-  - name: Berkeley University
-    description: MSc (Information Technology)
-    date: 2015-2019
+  - name: 스타트업 프론티어
+    description: 우수상
+    date: 2023-2
+  - name: 글로벌 이노베이터 페스타
+    description: 장려상
+    date: 2022-10
 ---

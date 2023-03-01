@@ -19,27 +19,6 @@ const Layout = ({ pagination, collection, slug, content, categories }) => {
   return (
     <div className="mx-auto w-full">
       <div className="prose prose-headings:mb-4 dark:prose-invert">
-        {categories && (
-          <>
-            <div className="grid-cols-2 bg-omega-800 md:grid">
-              <div className="p-3 md:p-6 lg:p-12">
-                <ContentRenderer source={categories} />
-                <div className="mt-4 grid gap-2 lg:grid-cols-2">
-                  {categories?.collection?.records?.map((tag) => (
-                    <TagCard key={tag.title} {...tag} />
-                  ))}
-                </div>
-              </div>
-              <Reveal
-                animation="fade-in slide-in-left"
-                className="bg-gradient-omega-900 p-3 md:p-6 lg:p-12"
-              >
-                <Newsletter />
-              </Reveal>
-            </div>
-            <Sep line className="" />
-          </>
-        )}
         <div className="p-4 md:p-6 lg:p-12">
           <div className="flex items-start justify-between">
             <div>
