@@ -1,5 +1,9 @@
 /* Available themes: https://github.com/PrismJS/prism-themes */
 @import 'prism-themes/themes/prism-material-dark.min.css';
+main{
+  max-width: 100vw !important;
+  overflow: hidden !important;
+}
 
 pre {
   @apply overflow-auto;

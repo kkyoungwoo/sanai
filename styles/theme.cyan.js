@@ -6,7 +6,7 @@ const theme = {
   // Secondary color
   beta: colors.indigo,
   // Accent color
-  accent: colors.red,
+  accent: colors.cyan,
   // Neutral color
   omega: colors.zinc,
 }

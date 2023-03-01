@@ -5,7 +5,7 @@ import ActiveLink from '@/components/ActiveLink'
 import { menu, social } from '../theme.config'
 import { BiChevronDown, BiDotsHorizontalRounded } from 'react-icons/bi'
 
-const MenuItem = ({ name, Icon, text, slug, number, isOpen, toggleMenu, ...rest }) => (
+const MenuItem = ({ name, Icon, text, slug, isOpen, toggleMenu, ...rest }) => (
   <ActiveLink
     href={slug}
     activeClassName="from-beta to-alpha text-black"
@@ -27,11 +27,6 @@ const MenuItem = ({ name, Icon, text, slug, number, isOpen, toggleMenu, ...rest 
     >
       {name}
     </div>
-    {number && (
-      <div className="absolute bottom-2 right-2 hidden h-4 w-4 text-center font-mono text-xs font-bold md:block">
-        {number}
-      </div>
-    )}
     <span className="absolute top-0 right-0 hidden h-full w-1 bg-white/25 opacity-0 transition-opacity group-hover:opacity-100 md:block" />
     {Icon && <Icon className="relative z-20 h-6 w-6" />}
     {text && <div className="relative z-20 h-6 text-lg font-extrabold">{text}</div>}

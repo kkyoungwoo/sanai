@@ -5,22 +5,21 @@
     "fields": [
       {
         "type": "text",
-        "name": "first-name",
-        "placeholder": "First name",
+        "name": "name",
+        "placeholder": "이름",
         "autoComplete": "given-name",
         "required": true
       },
       {
         "type": "text",
-        "name": "last-name",
-        "placeholder": "Last name",
-        "autoComplete": "family-name",
-        "required": true
+        "name": "phone",
+        "placeholder": "연락처",
+        "autoComplete": "phone"
       },
       {
         "type": "text",
         "name": "email",
-        "placeholder": "Email address",
+        "placeholder": "이메일 주소",
         "autoComplete": "email",
         "inputType": "email",
         "required": true
@@ -28,114 +27,50 @@
       {
         "type": "text",
         "name": "company",
-        "placeholder": "Company Name",
+        "placeholder": "회사명",
         "autoComplete": "company"
       },
       {
         "type": "text",
-        "name": "phone",
-        "placeholder": "Phone Number",
-        "autoComplete": "phone"
-      },
-      {
-        "type": "select",
-        "name": "country",
-        "autoComplete": "country-name",
-        "defaultValue": "Select Country",
-        "options": [
-          {
-            "label": "Select Country",
-            "value": "",
-            "disabled": true
-          },
-          {
-            "label": "United States",
-            "value": "United States"
-          },
-          {
-            "label": "Canada",
-            "value": "Canada"
-          },
-          {
-            "label": "Germany",
-            "value": "Germany"
-          },
-          {
-            "label": "France",
-            "value": "France"
-          }
-        ]
+        "name": "last-name",
+        "placeholder": "문의제목",
+        "autoComplete": "family-name",
+        "required": true
       }
     ]
   },
   {
-    "legend": "What services do you need for your project?",
-    "columns": 3,
-    "fields": [
-      {
-        "type": "checkbox",
-        "name": "project-type[Website Development]",
-        "label": "Website Development"
-      },
-      {
-        "type": "checkbox",
-        "name": "project-type[App Development]",
-        "label": "App Development"
-      },
-      {
-        "type": "checkbox",
-        "name": "project-type[Design System]",
-        "label": "Design System"
-      },
-      {
-        "type": "checkbox",
-        "name": "project-type[Website Migration]",
-        "label": "Website Migration"
-      },
-      {
-        "type": "checkbox",
-        "name": "project-type[E-commerce Site]",
-        "label": "E-commerce Site"
-      },
-      {
-        "type": "checkbox",
-        "name": "project-type[Performance Evaluation]",
-        "label": "Performance Evaluation"
-      }
-    ]
-  },
-  {
-    "legend": "How much is the anticipated budget?",
+    "legend": "(주)사나이클럽을 언제부터 알고 계셨나요?",
     "columns": 3,
     "fields": [
       {
         "type": "radio",
         "name": "budget",
-        "value": "Less than $2,000",
-        "label": "Less than $2,000"
+        "value": "More than $10,000",
+        "label": "최근 1주 이내"
       },
       {
         "type": "radio",
         "name": "budget",
         "value": "$2,000 - $10,000",
-        "label": "$2,000 - $10,000"
+        "label": "1주 ~ 1달 이내"
       },
       {
         "type": "radio",
         "name": "budget",
-        "value": "More than $10,000",
-        "label": "More than $10,000"
+        "value": "Less than $2,000",
+        "label": "1달 이상"
       }
     ]
   },
   {
-    "legend": "Tell me about your project",
+    "legend": "문의내용 작성",
     "columns": 1,
     "fields": [
       {
         "type": "textarea",
         "name": "message",
-        "placeholder": "Project description",
+        "placeholder": "파일첨부가 필요할 경우 상단에 등록되어있는 이메일 주소로 전달해주십시오",
         "rows": 3
       }
     ]

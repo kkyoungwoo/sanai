@@ -13,21 +13,13 @@ repositories:
 ---
 
 <PageTitle>
-  ### My Open-Source Projects
+  ### Sanai Project List
 </PageTitle>
 
-Discover my most popular open-source projects on Github.
-
-
+사나이클럽이 운영하고 있는 프로젝트를 확인할 수 있습니다
 
 ---projects
 collection:
   path: /projects
   sortBy: date
 ---
-
-<PageTitle>
-  ### Latest Projects
-</PageTitle>
-
-I have transformed ideas into remarkable digital products.
