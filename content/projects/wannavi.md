@@ -8,21 +8,25 @@ tags:
   - wannavi
   - 외국인 구인구직 플랫폼
 logo:
-  src: /icons/logo-4.svg
+  src: /icons/wannavi.svg
   alt: Company X
 images:
-  - src: /projects/project-4.png
+  - src: /projects/wannavi-1.png
     alt: image alt text
     overlay:
-      src: /projects/project-4-mobile.png
+      src: /projects/wannavi-mobile.png
       alt: overlay image
-  - src: /projects/project-4.png
+  - src: /projects/wannavi-2.png
+    alt: image alt text
+  - src: /projects/wannavi-3.png
+    alt: image alt text
+  - src: /projects/wannavi-4.png
+    alt: image alt text
+  - src: /projects/wannavi-5.png
     alt: image alt text
 attributes:
-  - label: Duration
-    value: 6 months
-  - label: Role
-    value: Accessibility
+  - label: Website
+    value: https://wannavi.jobs
 ---
 
 Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Using Markdown is different than using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.

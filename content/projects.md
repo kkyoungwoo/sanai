@@ -16,8 +16,6 @@ repositories:
   ### Sanai Projects
 </PageTitle>
 
-운영중인 프로젝트 리스트
-
 ---projects
 collection:
   path: /projects

@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: training Class
+title: CLASS
 description: 직원 교육용 강의
 date: '2023-03-02'
 tags:
@@ -8,21 +8,21 @@ tags:
   - class
   - 직원 교육 클래스
 logo:
-  src: /icons/logo-4.svg
+  src: /icons/class.svg
   alt: Company X
 images:
-  - src: /projects/project-4.png
+  - src: /projects/class-1.png
     alt: image alt text
     overlay:
-      src: /projects/project-4-mobile.png
+      src: /projects/class-mobile.png
       alt: overlay image
-  - src: /projects/project-4.png
+  - src: /projects/class-2.png
+    alt: image alt text
+  - src: /projects/class-3.png
     alt: image alt text
 attributes:
-  - label: Duration
-    value: 6 months
-  - label: Role
-    value: Accessibility
+  - label: Website
+    value: https://wannavi.liveklass.com/
 ---
 
 Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Using Markdown is different than using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.
