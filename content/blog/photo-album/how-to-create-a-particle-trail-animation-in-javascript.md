@@ -1,13 +1,14 @@
 ---
 layout: Post
-title: Next.js vs Gatsby - A Comprehensive Comparison
-description: Reprehenderit deserunt occaecat cupidatat adipisicing consequat incididunt commodo. Non irure nostrud tempor qui incididunt dolore labore anim nulla.
-date: '2022-09-05'
+title: 2023-03-01 How To Create A Particle Trail Animation In React
+description: Anim Lorem sunt excepteur adipisicing incididunt adipisicing sunt veniam. Eiusmod sint incididunt amet laboris.
+date: '2023-03-01'
 tags:
-  - next-js
+  - photo-album
 images:
-  - src: /photos/blog-compare.jpg
+  - src: /photos/blog-particle.jpg
     alt: image alt attribute
+featured: true
 ---
 
 Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Using Markdown is different than using a WYSIWYG editor. In an application like Microsoft Word, you click buttons to format words and phrases, and the changes are visible immediately. Markdown isn’t like that. When you create a Markdown-formatted file, you add Markdown syntax to the text to indicate which words and phrases should look different.

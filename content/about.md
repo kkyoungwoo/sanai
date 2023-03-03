@@ -1,8 +1,8 @@
 ---
 layout: About
 seo:
-  title: About Me
-  description: Custom description for this page goes here
+  title: 크루 모집
+  description: 사나이클럽의 크루를 모집합니다
 ---
 
 
@@ -31,7 +31,7 @@ images:
 우리는 넘어져도 씩씩하게 일어날 수 있습니다
 
 <Button href="/contact">
-  ##### 지원하기
+  ##### 크루 지원하기
 </Button>
 
 
@@ -48,7 +48,7 @@ list:
 
 
 ---skills[0]
-title: 개발 크루 인재상
+title: 개발 크루 우대사항
 list:
   - title: Next.js
     level: 3
@@ -82,7 +82,7 @@ list:
 ########################################
 ### Skills
 ########################################
-title: 디자인 크루 인재상
+title: 디자인 크루 우대사항
 list:
   - title: Figma
     level: 5
@@ -104,7 +104,7 @@ list:
 ########################################
 ### Skills
 ########################################
-title: 마케팅 크루 인재상
+title: 마케팅 크루 우대사항
 list:
   - title: MS Teams
     level: 3
@@ -138,7 +138,7 @@ list:
 ########################################
 ### Skills
 ########################################
-title: 영업 크루 인재상
+title: 영업 크루 우대사항
 list:
   - title: 시간 약속
     level: 5

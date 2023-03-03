@@ -54,7 +54,7 @@ export const social = [
  */
 
 export const config = {
-  dateLocale: 'en-US',
+  dateLocale: 'ko',
   dateOptions: {
     // dateOptions is passed to JavaScript's toLocaleDateString()
     year: 'numeric',
@@ -67,8 +67,8 @@ export const config = {
   },
   contactForm: {
     inputs: require('./content/contact-form.json'),
-    recipient: 'RECIPIENT@EXAMPLE.com',
-    sender: 'SENDER@EXAMPLE.com',
+    recipient: 'bizdb@naver.com',
+    sender: 'bizdb@naver.com',
     subject: 'EMAIL NOTIFICATION SUBJECT',
   },
 }
@@ -93,13 +93,13 @@ export const mdxConfig = {
 
 export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
-  authorName: 'Carl Hanson',
-  siteName: 'Carl Hanson',
-  defaultTitle: 'Carl Hanson Personal Site',
-  titleTemplate: 'Carl Hanson | %s',
-  description: 'A short description goes here.',
-  email: 'hello@example.com',
-  locale: 'en_US',
+  authorName: 'Sanai Club',
+  siteName: 'Sanai Club',
+  defaultTitle: 'Sanai Club Company',
+  titleTemplate: 'Sanai Club | %s',
+  description: '사나이클럽으로 초대합니다',
+  email: 'bizdb@naver.com',
+  locale: 'ko',
   twitter: {
     handle: '@handle',
     site: '@site',

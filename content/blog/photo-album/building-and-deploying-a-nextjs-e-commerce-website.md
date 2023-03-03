@@ -1,13 +1,12 @@
 ---
 layout: Post
-title: Yarn Workspaces Organize Your Project’s Codebase Like A Pro
-description: Velit in occaecat tempor consectetur nulla do deserunt veniam. Laborum enim sit fugiat et labore deserunt ad irure pariatur.
-date: '2022-10-01'
+title: 2023-03-02 Building and Deploying a Next.js E-commerce Website
+description: Reprehenderit deserunt occaecat cupidatat adipisicing consequat incididunt commodo. Non irure nostrud tempor qui incididunt dolore labore anim nulla.
+date: '2023-03-02'
 tags:
-  - react
-  - next-js
+  - photo-album
 images:
-  - src: /photos/blog-nodes.jpg
+  - src: /photos/blog-shop.jpg
     alt: image alt attribute
 ---
 

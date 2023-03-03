@@ -1,12 +1,12 @@
 ---
 layout: Post
-title: Helping Browsers Optimize With The CSS Contain Property
-description: Id anim magna occaecat laboris ex enim incididunt do esse do ea in nulla. Consequat deserunt duis ex reprehenderit qui tempor nostrud veniam eiusmod.
-date: '2022-11-21'
+title: 3.3 Immediately
+description: Reprehenderit deserunt occaecat cupidatat adipisicing consequat incididunt commodo. Non irure nostrud tempor qui incididunt dolore labore anim nulla.
+date: '2023-03-03'
 tags:
-  - tailwind
+  - photo-album
 images:
-  - src: /photos/blog-browsers.jpg
+  - src: /photos/blog-performance.jpg
     alt: image alt attribute
 ---
 

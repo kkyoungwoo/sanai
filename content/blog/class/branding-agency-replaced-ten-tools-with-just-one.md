@@ -4,7 +4,7 @@ title: Branding Agency Replaced Ten Tools With Just One
 description: Officia qui magna laboris laborum eu sit sit. Et dolor qui esse commodo ad dolor nostrud.
 date: '2023-09-05'
 tags:
-  - marketing
+  - class
 images:
   - src: /photos/blog-tools.jpg
     alt: image alt attribute

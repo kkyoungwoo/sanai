@@ -1,8 +1,8 @@
 ---
 layout: Contact
 seo:
-  title: Contact Me
-  description: Custom description for this page goes here
+  title: 상담신청
+  description: 문의사항을 작성해주세요
 ---
 
 
@@ -13,7 +13,7 @@ seo:
 <PageTitle>
   ### Get in touch
 
-  ### _Let's talk about you
+  #### Let's talk about you
 </PageTitle>
 
 상담양식 사용을 권장드립니다

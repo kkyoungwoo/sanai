@@ -1,8 +1,8 @@
 ---
 layout: Projects
 seo:
-  title: Web Development Projects
-  description: Custom description for this page goes here
+  title: 사나이 프로젝트
+  description: 사나이클럽의 프로젝트를 확인하세요
 ---
 
 ---github
@@ -13,10 +13,10 @@ repositories:
 ---
 
 <PageTitle>
-  ### Sanai Project List
+  ### Sanai Projects
 </PageTitle>
 
-사나이클럽이 운영하고 있는 프로젝트를 확인할 수 있습니다
+운영중인 프로젝트 리스트
 
 ---projects
 collection:

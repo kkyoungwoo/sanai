@@ -1,8 +1,8 @@
 ---
 layout: Blog
-title: Digital Marketing
+title: photo-album
 seo:
-  title: Digital Marketing Articles
+  title: photo-album
   description: Custom description for this page goes here
 collection:
   path: /blog
@@ -12,9 +12,9 @@ collection:
   filterBy:
     tags:
       $in:
-        - marketing
+        - photo-album
 ---
 
-### Digital Marketing Articles
+### React Articles
 
-Marketing tactics and technologies used to reach consumers online.
+Front-end JavaScript library for building user interfaces based on UI components.

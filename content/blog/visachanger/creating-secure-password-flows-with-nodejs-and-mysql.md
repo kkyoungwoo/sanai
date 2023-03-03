@@ -1,13 +1,12 @@
 ---
 layout: Post
-title: Combining the Powers of SEM and BIO for Improving CSS
-description: Ad consequat dolor voluptate proident et. Commodo veniam consequat excepteur aliqua laboris tempor sunt laborum consequat proident dolor sint.
-date: '2022-11-21'
+title: Creating Secure Password Flows With Node.js And MySQL
+description: Ea culpa reprehenderit officia ad sunt ex consequat consequat deserunt fugiat. Sunt pariatur in veniam irure commodo in sint labore non laborum in enim nisi.
+date: '2021-12-30'
 tags:
-  - tailwindcss
-  - css
+  - visachanger
 images:
-  - src: /photos/blog-css.jpg
+  - src: /photos/blog-database.jpg
     alt: image alt attribute
 ---
 

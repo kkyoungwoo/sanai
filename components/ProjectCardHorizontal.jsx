@@ -60,22 +60,22 @@ const ProjectCardHorizontal = ({
       </Link>
     )}
     <div className="p-4 md:p-10 md:pl-0">
-      {logo?.src ? (
-        <div className="h-10">
-          <Icon {...logo} className="h-full w-36 fill-current text-omega-400" />
-        </div>
-      ) : (
-        <h6 className="text-omega-400">{logo.alt}</h6>
-      )}
       <Link href={slug.join('/')} aria-label={title}>
+        {logo?.src ? (
+          <div className="h-10">
+            <Icon {...logo} className="h-full w-36 fill-current text-omega-400" />
+          </div>
+        ) : (
+          <h6 className="text-omega-400">{logo.alt}</h6>
+        )}
         <h4 className="mt-6 transition-colors group-hover:text-accent dark:group-hover:text-alpha">
           {title}
         </h4>
+        <small className="mt-6 block">{description}</small>
       </Link>
-      <small className="mt-6 block">{description}</small>
       {tags && (
         <>
-          <div className="mb-2 mt-6 font-bold dark:text-accent-400">Technologies</div>
+          <div className="mb-2 mt-6 font-bold dark:text-accent-400">Introduction</div>
           <div className="mt-2">
             {tags?.map((tag) => (
               <Tag key={tag.title} slug={tag.slug} className="m-0.5 font-mono text-sm lg:mr-2">
@@ -84,16 +84,6 @@ const ProjectCardHorizontal = ({
             ))}
           </div>
         </>
-      )}
-      {attributes && Array.isArray(attributes) && (
-        <dl className="mt-2 flex flex-wrap">
-          {attributes.map(({ label, value }) => (
-            <div key={label} className="basis-1/2 py-2">
-              <dt className="mb-1 font-bold dark:text-accent-400">{label}</dt>
-              <dd>{value}</dd>
-            </div>
-          ))}
-        </dl>
       )}
     </div>
   </div>

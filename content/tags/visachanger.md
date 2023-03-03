@@ -1,8 +1,8 @@
 ---
 layout: Blog
-title: Node.js
+title: visachanger
 seo:
-  title: Node.js Articles
+  title: visachanger
   description: Custom description for this page goes here
 collection:
   path: /blog
@@ -12,9 +12,9 @@ collection:
   filterBy:
     tags:
       $in:
-        - node-js
+        - visachanger
 ---
 
-### Node.js Articles
+### React Articles
 
-Node.js is an open-source, cross-platform JavaScript runtime environment.
+Front-end JavaScript library for building user interfaces based on UI components.

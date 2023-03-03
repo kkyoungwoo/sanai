@@ -1,8 +1,8 @@
 ---
 layout: Home
 seo:
-  title: Web Developer
-  description: Custom description for this page goes here
+  title: Home
+  description: 사나이클럽에 오신것을 환영합니다
 ---
 
 ---main
@@ -19,11 +19,13 @@ images:
 
 <Sep size={12} />
 
-안녕하세요
-사나이 클럽 회장 고경우입니다
-(사나이클럽 간단 소개)
+사나이라는 단어는 성별에 상관없이 씩씩하고 용감한 마음가짐을 가진 모든 사람을 대표하는 단어입니다.
 
-법인등록번호 : 111-11-11111
+사나이들은 어려운 상황에서도 끝까지 포기하지 않고, 목표를 위해 최선을 다하죠. 그렇기에 어려운 시기를 이겨내고, 그것을 성장과 발전의 기회로 만들어 냅니다.
+
+사나이클럽의 목표는 반복되는 인력난을 해결하는 것 입니다. 우리의 행동이 다른 사람들에게 영향을 미칠 수 있다는 것을 이해하고, 그에 따른 책임을 다하겠습니다.
+
+사업자등록번호 : 2023년 6월 등록 예정
 
 
 
@@ -47,22 +49,18 @@ images:
 
 
 ---companies
-title: Services Logo
+title: Go to Service
 list:
   - name: Company 1
     icon:
-      src: /icons/logo-1.svg
-      link: https://daum.net
+      src: /icons/wannavi.svg
+      link: https://wannavi.jobs/
   - name: Company 2
     icon:
-      src: /icons/logo-3.svg
-      link: https://visachanger.com
+      src: /icons/class.svg
+      link: https://wannavi.liveklass.com/
   - name: Company 3
     icon:
-      src: /icons/logo-3.svg
-      link: https://google.com
-  - name: Company 4
-    icon:
-      src: /icons/logo-4.svg
-      link: https://naver.com
+      src: /icons/visachanger.svg
+      link: https://visachanger.com/
 ---

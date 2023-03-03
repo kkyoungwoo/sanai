@@ -1,8 +1,8 @@
 ---
 layout: Blog
-title: React
+title: class
 seo:
-  title: React Articles
+  title: class
   description: Custom description for this page goes here
 collection:
   path: /blog
@@ -12,9 +12,9 @@ collection:
   filterBy:
     tags:
       $in:
-        - react
+        - class
 ---
 
-### React Articles
+### Tailwind CSS Articles
 
-Front-end JavaScript library for building user interfaces based on UI components.
+Tailwind CSS is a low-level CSS framework that gives you all of the building blocks you need to build bespoke designs.

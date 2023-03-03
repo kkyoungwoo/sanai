@@ -127,7 +127,7 @@ const Contact01 = ({ main = {} }) => {
                     className="w-full sm:w-1/3"
                     disabled={isSubmitting}
                   >
-                    Submit
+                    신청서 접수
                   </Button>
                 </div>
               </div>

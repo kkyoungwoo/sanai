@@ -1,8 +1,8 @@
 ---
 layout: Blog
-title: Next.js
+title: wannavi
 seo:
-  title: Next.js Articles
+  title: wannavi
   description: Custom description for this page goes here
 collection:
   path: /blog
@@ -12,9 +12,9 @@ collection:
   filterBy:
     tags:
       $in:
-        - next-js
+        - wannavi
 ---
 
-### Next JS Framework Articles
+### Node.js Articles
 
-Next.js enables you to create full-stack web applications by extending the latest React features.
+Node.js is an open-source, cross-platform JavaScript runtime environment.

@@ -1,14 +1,12 @@
 ---
 layout: Post
-title: How To Create A Card Matching Game Using React And RxJS
-description: Incididunt adipisicing voluptate quis ipsum non culpa fugiat officia. Ea ad nulla laborum cillum ullamco exercitation irure.
-date: '2022-10-01'
+title: Creating Secure Password Flows With Node.js And MySQL
+description: Ea culpa reprehenderit officia ad sunt ex consequat consequat deserunt fugiat. Sunt pariatur in veniam irure commodo in sint labore non laborum in enim nisi.
+date: '2021-12-30'
 tags:
-  - next-js
-  - tailwind
-  - guide
+  - wannavi
 images:
-  - src: /photos/blog-game.jpg
+  - src: /photos/blog-database.jpg
     alt: image alt attribute
 ---
 
