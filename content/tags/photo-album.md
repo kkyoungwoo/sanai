@@ -15,6 +15,6 @@ collection:
         - photo-album
 ---
 
-### React Articles
+### <span>(주)사나이클럽</span>의 활동 흔적
 
-Front-end JavaScript library for building user interfaces based on UI components.
+##### <span>"포토 앨범"</span> Tag로 검색되었습니다.

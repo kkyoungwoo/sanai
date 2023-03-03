@@ -1,12 +1,12 @@
 ---
 layout: Post
-title: VISA Consulting
-description: 외국인 행정 서비스 컨설팅
+title: VISA Changer
+description: 국내체류 외국인을 위한 비자 및 출입국 행정 컨설팅
 date: '2021-12-30'
 tags:
   - photo-album
-  - visachanger
-  - 외국인 비자 컨설팅
+  - visa
+  - 출입국 비자 컨설팅
 logo:
   src: /icons/visachanger.svg
   alt: Company X
@@ -25,7 +25,7 @@ images:
   - src: /projects/visachanger-5.png
     alt: image alt text
 attributes:
-  - label: Website
+  - label: Website Link
     value: https://visachanger.com/
 ---
 

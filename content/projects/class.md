@@ -1,12 +1,12 @@
 ---
 layout: Post
 title: CLASS
-description: 직원 교육용 강의
-date: '2023-03-02'
+description: 대체할 수 없는 인재로 성장하기 위한 시크릿 커리어 클래스
+date: '2023-02-06'
 tags:
   - photo-album
   - class
-  - 직원 교육 클래스
+  - 커리어 전공수업
 logo:
   src: /icons/class.svg
   alt: Company X
@@ -21,7 +21,7 @@ images:
   - src: /projects/class-3.png
     alt: image alt text
 attributes:
-  - label: Website
+  - label: Website Link
     value: https://wannavi.liveklass.com/
 ---
 

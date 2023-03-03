@@ -4,7 +4,7 @@ title: Creating Secure Password Flows With Node.js And MySQL
 description: Ea culpa reprehenderit officia ad sunt ex consequat consequat deserunt fugiat. Sunt pariatur in veniam irure commodo in sint labore non laborum in enim nisi.
 date: '2021-12-30'
 tags:
-  - visachanger
+  - visa
 images:
   - src: /photos/blog-database.jpg
     alt: image alt attribute

@@ -44,7 +44,6 @@ const BlogCardVertical = ({ className, title, images, slug, description, date, t
           {title}
         </h5>
       </Link>
-      <small className="mb-4 text-omega-400">{description}</small>
       {date && (
         <div className="mt-auto text-omega-500">
           <IoCalendarOutline className="mr-2 inline h-6 w-6" />
