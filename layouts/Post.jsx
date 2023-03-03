@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/Link'
 import { ArticleJsonLd } from 'next-seo'
 import ContentRenderer from '@/components/ContentRenderer'
 import Image from '@/components/Image'
@@ -10,6 +9,7 @@ import Sep from '@/components/Sep'
 import Newsletter from '@/components/Newsletter'
 import { siteMetaData } from '../theme.config'
 import authorImage from '../public/author-profile-picture.jpg'
+import Link from 'next/link'
 
 const Layout = ({
   content,
