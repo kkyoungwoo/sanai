@@ -54,7 +54,7 @@ list:
   - name: Company 1
     icon:
       src: /icons/wannavi.svg
-      link: https://wannavi.jobs/
+      link: https://naver.com
   - name: Company 2
     icon:
       src: /icons/class.svg
