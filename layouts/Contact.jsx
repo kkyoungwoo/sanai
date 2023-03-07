@@ -11,7 +11,6 @@ import FormRadio from '@/components/FormRadio'
 import Button from '@/components/Button'
 import { SlCheck } from 'react-icons/sl'
 import { config } from '../theme.config'
-import emailjs from "emailjs-com";
 
 const { inputs } = config.contactForm || {}
 
@@ -61,15 +60,6 @@ const Contact01 = ({ main = {} }) => {
         }),
       })
       if (res.status === 201) {
-        data.preventDefault();
-        emailjs
-          .sendForm(
-            "sanai.club_form",
-            "template_66hgnxe",
-            e.target,
-            "user_YOvzVUT3C3OBySLzLPves"
-          )
-          alert("입력하신 내용으로 정상접수 되었습니다. 곧 연락드리겠습니다.")
         return true
       }
       const json = await res.json()
