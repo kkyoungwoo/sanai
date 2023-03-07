@@ -7,7 +7,7 @@
         "type": "text",
         "name": "name",
         "placeholder": "이름",
-        "autoComplete": "given-name",
+        "autoComplete": "name",
         "required": true
       },
       {
@@ -34,32 +34,8 @@
         "type": "text",
         "name": "title",
         "placeholder": "문의제목",
-        "autoComplete": "family-name",
+        "autoComplete": "title",
         "required": true
-      }
-    ]
-  },
-  {
-    "legend": "(주)사나이클럽을 언제부터 알고 계셨나요?",
-    "columns": 3,
-    "fields": [
-      {
-        "type": "radio",
-        "name": "one",
-        "value": "one",
-        "label": "최근 1주 이내"
-      },
-      {
-        "type": "radio",
-        "name": "two",
-        "value": "two",
-        "label": "1주 ~ 1달 이내"
-      },
-      {
-        "type": "radio",
-        "name": "three",
-        "value": "three",
-        "label": "1달 이상"
       }
     ]
   },

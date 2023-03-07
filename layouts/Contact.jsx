@@ -11,6 +11,7 @@ import FormRadio from '@/components/FormRadio'
 import Button from '@/components/Button'
 import { SlCheck } from 'react-icons/sl'
 import { config } from '../theme.config'
+import Emailjs from 'emailjs-com'
 
 const { inputs } = config.contactForm || {}
 
@@ -25,7 +26,7 @@ const FormComponent = {
 const ErrorMessage = ({ errors, name }) =>
   errors[name] ? (
     <div className="mb-4 block bg-red-500/5 px-4 py-2 text-red-500">{errors[name].message}</div>
-  ) : null
+  ) : null;
 
 const SuccessMessage = () => (
   <Reveal animation="fade-in">
@@ -37,17 +38,17 @@ const SuccessMessage = () => (
       </div>
     </div>
   </Reveal>
-)
+);
 
 const Contact01 = ({ main = {} }) => {
-  const methods = useForm()
+  const methods = useForm();
   const {
     register,
     formState: { errors, isValidating, isSubmitting, isSubmitSuccessful },
     handleSubmit,
     setError,
     clearErrors,
-  } = methods
+  } = methods;
 
   const onSubmit = async (data) => {
     try {
@@ -58,24 +59,32 @@ const Contact01 = ({ main = {} }) => {
           'Content-Type': 'application/json',
           credentials: 'same-origin',
         }),
-      })
+      });
       if (res.status === 201) {
-        return true
+        const result = await Emailjs.sendForm(
+          "sanai.club_form",
+          "template_66hgnxe",
+          e.target,
+          "user_YOvzVUT3C3OBySLzLPves"
+        );
+        console.log(result.text);
+        alert("입력하신 내용으로 정상접수 되었습니다. 곧 연락드리겠습니다.");
+        history.push("/kakao");
       }
-      const json = await res.json()
+      const json = await res.json();
       if (json.error) {
-        throw json.error
+        throw json.error;
       }
     } catch (error) {
-      setError('service', { type: 'serviceSideError', message: error })
+      setError('service', { type: 'serviceSideError', message: error });
+      alert("메일이 발송되지 않았습니다. 연락처 : 010-4242-3088");
     }
-  }
-
+  };
   React.useEffect(() => {
     if (errors.service && isValidating) {
-      clearErrors('service')
+      clearErrors('service');
     }
-  }, [isValidating, errors.service, clearErrors])
+  }, [isValidating, errors.service, clearErrors]);
 
   return (
     <div className="my-auto p-3 md:p-6 lg:p-12">
@@ -91,7 +100,7 @@ const Contact01 = ({ main = {} }) => {
           className="md:with-back-plate max-w-3xl border border-omega-700 md:before:bg-omega-700"
         >
           <FormProvider {...methods}>
-            <form onSubmit={handleSubmit(onSubmit)}>
+            <form onSubmit={handleSubmit(onSubmit)} encType="multipart/form-data" method="post">
               <div className="relative overflow-hidden shadow">
                 {isSubmitSuccessful && <SuccessMessage />}
                 <div className="bg-gradient-omega-900">
