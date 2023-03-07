@@ -33,7 +33,7 @@ images:
 - number: 1 +
   text: Crew
 - number: 3 +
-  text: Service
+  text: Projects
 - number: 10 +
   text: partner
 ---

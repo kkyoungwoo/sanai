@@ -1,7 +1,6 @@
 import React from 'react'
 import classNames from 'clsx'
 import Link from 'next/link'
-
 const Tag = (props) => {
   const { children, className, slug, ...rest } = props
 

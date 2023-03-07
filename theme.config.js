@@ -31,7 +31,7 @@ export const menu = [
     Icon: SlUser,
   },
   {
-    name: '문의',
+    name: '상담 및 문의',
     slug: '/contact',
     Icon: TfiPencilAlt,
   },

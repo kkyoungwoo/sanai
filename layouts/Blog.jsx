@@ -4,8 +4,6 @@ import ContentRenderer from '@/components/ContentRenderer'
 import Paging from '@/components/Paging'
 import useInfinitePaging from '@/components/useInfinitePaging'
 import Newsletter from '@/components/Newsletter'
-import Reveal from '@/components/Reveal'
-import Sep from '@/components/Sep'
 
 const Layout = ({ pagination, collection, slug, content, categories }) => {
   const { records, infinitePaging } = collection
@@ -58,6 +56,7 @@ const Layout = ({ pagination, collection, slug, content, categories }) => {
             totalPages={totalPages}
             slug={slug}
           />
+        <Newsletter className="text-center mt-12"/>
         </div>
       </div>
     </div>

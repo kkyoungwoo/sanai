@@ -17,4 +17,4 @@ collection:
 
 ### <span>(주)사나이클럽</span>의 활동 흔적
 
-##### <span>"비자"</span> Tag로 검색되었습니다.
+##### <span>"VISA"</span> Tag로 검색되었습니다.

@@ -32,7 +32,7 @@
       },
       {
         "type": "text",
-        "name": "last-name",
+        "name": "title",
         "placeholder": "문의제목",
         "autoComplete": "family-name",
         "required": true
@@ -45,20 +45,20 @@
     "fields": [
       {
         "type": "radio",
-        "name": "budget",
-        "value": "More than $10,000",
+        "name": "one",
+        "value": "one",
         "label": "최근 1주 이내"
       },
       {
         "type": "radio",
-        "name": "budget",
-        "value": "$2,000 - $10,000",
+        "name": "two",
+        "value": "two",
         "label": "1주 ~ 1달 이내"
       },
       {
         "type": "radio",
-        "name": "budget",
-        "value": "Less than $2,000",
+        "name": "three",
+        "value": "three",
         "label": "1달 이상"
       }
     ]
@@ -71,7 +71,7 @@
         "type": "textarea",
         "name": "message",
         "placeholder": "파일첨부가 필요할 경우 상단에 등록되어있는 이메일 주소로 전달해주십시오",
-        "rows": 3
+        "rows": 5
       }
     ]
   }
