@@ -11,7 +11,7 @@ import FormRadio from '@/components/FormRadio'
 import Button from '@/components/Button'
 import { SlCheck } from 'react-icons/sl'
 import { config } from '../theme.config'
-import Emailjs from 'emailjs-com'
+import Emailjs from 'emailjs/browser'
 
 const { inputs } = config.contactForm || {}
 
