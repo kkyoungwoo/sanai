@@ -12,6 +12,7 @@ class MyDocument extends Document {
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
           <link rel="manifest" href="/favicon/site.webmanifest" />
           <link rel="alternate" type="application/rss+xml" href="/feed/blog/feed.xml" />
+          <meta name="naver-site-verification" content="e2b21a6c626113df85c859d7ecb8bf850bde058d" />
         </Head>
         <body className="scrollbar-thin scrollbar-thumb-omega-500 hover:scrollbar-thumb-omega-600">
           <Main />
