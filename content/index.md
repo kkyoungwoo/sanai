@@ -49,7 +49,7 @@ images:
 
 
 ---companies
-title: Go to Service
+title: Go to Service 😎
 list:
   - name: Company 1
     icon:

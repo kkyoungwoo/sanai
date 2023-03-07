@@ -4,10 +4,9 @@ import Icon from '@/components/Icon'
 
 const IntroMessage = () => (
   <div className="prose dark:prose-invert">
-    <h6>사회 깊숙한 곳의 문제를 해결하는 기업</h6>
-    <h3>
-      <em>(주)사나이클럽</em>
-    </h3>
+    <h5>
+      <em>사회 깊숙한 곳의 문제를 해결하는 기업</em>
+    </h5>
     <h6></h6>
   </div>
 )
@@ -18,11 +17,11 @@ const Badge = () => (
       className="group h-6 text-omega-400 no-underline"
       href="/"
     >
-      <span className="text-xs">메인페이지 이동</span>
       <Icon
-        src="/icons/convertkit.svg"
+        src="/icons/sanaitkit.svg"
         className="ml-2 mb-1 inline h-6 w-24 align-middle group-hover:text-[#FB6970]"
       />
+      <span className="text-xs ml-4">메인페이지 이동</span>
     </a>
   </div>
 )
