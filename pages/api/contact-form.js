@@ -39,7 +39,6 @@ const contact = async (req, res) => {
   if (Array.isArray(html)) {
     html = html.join('<br />')
   }
-
   return res.status(200).json({ error: '' })
 }
 

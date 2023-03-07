@@ -11,6 +11,7 @@ import FormRadio from '@/components/FormRadio'
 import Button from '@/components/Button'
 import { SlCheck } from 'react-icons/sl'
 import { config } from '../theme.config'
+import emailjs from "emailjs-com"
 
 const { inputs } = config.contactForm || {}
 
@@ -32,8 +33,8 @@ const SuccessMessage = () => (
     <div className="absolute inset-0 z-20 flex h-full w-full items-center justify-center bg-omega-800/95">
       <div className="max-w-md text-center">
         <SlCheck className="mx-auto text-5xl text-alpha" />
-        <h5>Thank you for contacting me.</h5>
-        <p>I will get back to you as soon as possible.</p>
+        <h5>성공적으로 접수되었습니다</h5>
+        <p>곧 연락드리겠습니다<br/>감사합니다 😊</p>
       </div>
     </div>
   </Reveal>
@@ -49,7 +50,7 @@ const Contact01 = ({ main = {} }) => {
     clearErrors,
   } = methods
 
-  const onSubmit = async (data) => {
+  const onSubmit = async (data, e) => {
     try {
       const res = await fetch(`/api/contact-form`, {
         method: 'POST',
@@ -59,8 +60,16 @@ const Contact01 = ({ main = {} }) => {
           credentials: 'same-origin',
         }),
       })
+      e.preventDefault()
+      emailjs
+        .sendForm(
+          "service_thek_form",
+          "template_66hgnxe",
+          e.target,
+          "user_YOvzVUT3C3OBySLzLPves"
+        )
       if (res.status === 201) {
-        return true
+        return false
       }
       const json = await res.json()
       if (json.error) {
