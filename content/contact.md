@@ -16,12 +16,14 @@ seo:
   #### Let's talk about you
 </PageTitle>
 
-상담양식 사용을 권장드립니다
+### <span>(주)</span> *사나이클럽*
 
 <Sep size="12" />
 
 <small>
-  <Icon src="/icons/call.svg" className="inline mr-2 align-middle fill-current text-omega-500" /> Phone: 010-4242-3088
+  🗨　[카카오톡 채팅하기](http://pf.kakao.com/_QAxnxmxj/chat)
 
-  <Icon src="/icons/mail.svg" className="mr-2 inline align-middle fill-current text-omega-500" /> Email: bizdb@naver.com
+  💌　bizdb@naver.com
+
+  🧾　000-00-00000
 </small>

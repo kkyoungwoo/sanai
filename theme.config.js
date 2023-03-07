@@ -94,7 +94,7 @@ export const mdxConfig = {
 export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
   authorName: 'Sanai Club',
-  siteName: 'Sanai Club',
+  siteName: '사나이클럽',
   defaultTitle: 'Sanai Club Company',
   titleTemplate: 'Sanai Club | %s',
   description: '사나이클럽으로 초대합니다',

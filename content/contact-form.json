@@ -46,7 +46,7 @@
       {
         "type": "textarea",
         "name": "message",
-        "placeholder": "파일첨부가 필요할 경우 상단에 등록되어있는 이메일 주소로 전달해주십시오",
+        "placeholder": "상세내용을 작성해주십시오",
         "rows": 5
       }
     ]
