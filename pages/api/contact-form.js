@@ -4,24 +4,12 @@
  ****************************************************************/
 
 import sendgrid from '@sendgrid/mail'
-import { config } from '../../theme.config'
 
 sendgrid.setApiKey(process.env.SENDGRID_API_KEY)
 
 const contact = async (req, res) => {
   const { email } = req.body
-  const { recipient, sender, subject } = config.contactForm || {}
 
-  if (!recipient) {
-    return res
-      .status(400)
-      .json({ error: 'Missing [config.contactForm.recipient] property in theme options.' })
-  }
-  if (!sender) {
-    return res
-      .status(400)
-      .json({ error: 'Missing [config.contactForm.sender] property in theme options.' })
-  }
   if (!email) {
     return res
       .status(400)
@@ -50,18 +38,6 @@ const contact = async (req, res) => {
   let html = getHtmlBody(req.body)
   if (Array.isArray(html)) {
     html = html.join('<br />')
-  }
-
-  try {
-    await sendgrid.send({
-      to: recipient, // Your email where you'll receive emails
-      from: recipient, // your website email address here
-      replyTo: email,
-      subject: req.body.subject || subject || 'Contact form entry',
-      html,
-    })
-  } catch (error) {
-    return res.status(error.statusCode || 500).json({ error: error.message })
   }
 
   return res.status(200).json({ error: '' })
