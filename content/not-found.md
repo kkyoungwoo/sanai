@@ -12,6 +12,4 @@ seo:
 
 The page you were looking for does not exist.
 
-<Button href="/contact" size="sm">Go Back to Home</Button>
-
-or checkout [my blog](/blog)
+<Button href="/" size="sm">Go Back to Home</Button>
