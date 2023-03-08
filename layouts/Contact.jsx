@@ -131,13 +131,17 @@ const Contact01 = ({ main = {} }) => {
                   
                 <div style={{
                     margin: "10px 20px",
+                    width: "100%",
                     fontWeight: "bold"
                   }}>기타 파일첨부 (Up to 500KB)
                 </div>
-                <input style={{
-                    margin: "10px 20px",
-                  }}
-                  type="file" name="my_file" />
+                <div>
+                  <input style={{
+                      margin: "10px 20px",
+                      width: "59%"
+                    }}
+                    type="file" name="my_file" />
+                  </div>
                 </div>
                 <div className="bg-omega-900 px-4 pt-6 pb-8 text-left md:px-8">
                   <ErrorMessage errors={errors} name="service" />
