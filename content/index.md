@@ -7,9 +7,9 @@ seo:
 
 ---main
 images:
-  - src: /ogimage.png
+  - src: /hero.jpg
     alt: my photo
-  - src: /ogimage.png
+  - src: /hero-mobile.jpg
     alt: my photo
 ---
 

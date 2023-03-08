@@ -10,7 +10,7 @@ seo:
 ---personal_info
 name: 크루 상시모집
 images:
-  - src: /ogimage.png
+  - src: /about.jpg
     alt: my image
 ---
 
