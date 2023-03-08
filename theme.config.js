@@ -63,7 +63,7 @@ export const config = {
     timeZone: 'UTC',
   },
   convertKit: {
-    tipUrl: 'https://fantastic-mover-3439.ck.page/products/blog',
+    tipUrl: 'https://sanai.club',
   },
   contactForm: {
     inputs: require('./content/contact-form.json'),

@@ -1,10 +1,10 @@
 {
-  "name": "next-theme-edgefolio",
+  "name": "sanai",
   "version": "1.1.1",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ElegantStack/edgefolio.git"
+    "url": ""
   },
   "engines": {
     "node": ">=14.0"
