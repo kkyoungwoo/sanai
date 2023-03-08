@@ -1,8 +1,8 @@
 ---
 layout: Post
-title: 워너비 테스트 포스팅
-description: 워너비 공유 설명란 테스트 입니다
-date: '2021-12-30'
+title: 워너비 홈페이지 개발중
+description: 외국인 구인구직 플랫폼 6월 OPEN
+date: '2023-01-02'
 tags:
   - wannavi
   - photo-album
@@ -11,9 +11,7 @@ images:
     alt: image alt attribute
 ---
 
-### 워너비 앨범 제목
-
-**워너비 내용 테스트**
+### 외국인 구인구직 플랫폼 6월 OPEN 예정입니다
 
 ---
 
