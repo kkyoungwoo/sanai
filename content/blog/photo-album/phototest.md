@@ -1,7 +1,7 @@
 ---
 layout: Post
-title: 모든 포스팅 테스트 포스팅
-description: 모든 포스팅 공유 설명란 테스트 입니다
+title: 테스트 포스팅
+description: 테스트 포스팅 입니다
 date: '2023-03-03'
 tags:
   - photo-album

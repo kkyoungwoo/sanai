@@ -1,8 +1,8 @@
 ---
 layout: Post
-title: 클래스 테스트 포스팅
-description: 클래스 공유 설명란 테스트 입니다
-date: '2023-09-05'
+title: 커리어 클래스 부분공개
+description: 커리어 클래스 부분공개 상태입니다
+date: '2023-05-01'
 tags:
   - class
   - photo-album
@@ -11,9 +11,9 @@ images:
     alt: image alt attribute
 ---
 
-### 클래스 앨범 제목
+### 현재 클래스는 부분공개 상태입니다.
 
-**클래스 내용 테스트**
+**문의신청은 우측 상담 및 문의에서 하실 수 있습니다**
 
 ---
 
