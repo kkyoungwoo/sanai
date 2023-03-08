@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import classNames from 'clsx'
 import { useForm, FormProvider } from 'react-hook-form'
 import ContentRenderer from '@/components/ContentRenderer'
@@ -42,6 +42,24 @@ const SuccessMessage = () => (
 
 const Contact01 = ({ main = {} }) => {
   const methods = useForm()
+  const [file, setFile] = useState(null)
+
+  const handleFileChange = (event) => {
+    const selectedFile = event.target.files[0];
+
+    if (selectedFile) {
+      const fileSize = selectedFile.size / 1024; // convert bytes to kilobytes
+      if (fileSize > 500) {
+        alert('파일 용량 500KB 이하로 업로드해주세요')
+        event.target.value = null; // reset the input file value
+        setFile(null);
+        return;
+      }
+
+      setFile(selectedFile)
+    }
+  }
+
   const {
     register,
     formState: { errors, isValidating, isSubmitting, isSubmitSuccessful },
@@ -140,7 +158,7 @@ const Contact01 = ({ main = {} }) => {
                       margin: "10px 20px",
                       width: "59%"
                     }}
-                    type="file" name="my_file" />
+                    type="file" name="my_file" onChange={handleFileChange}/>
                   </div>
                 </div>
                 <div className="bg-omega-900 px-4 pt-6 pb-8 text-left md:px-8">
