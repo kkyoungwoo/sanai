@@ -25,8 +25,6 @@ images:
 
 사나이클럽의 목표는 반복되는 인력난을 해결하는 것 입니다. 우리의 행동이 다른 사람들에게 영향을 미칠 수 있다는 것을 이해하고, 그에 따른 책임을 다하겠습니다.
 
-사업자등록번호 : 2023년 6월 등록 예정
-
 
 
 ---achievements
@@ -54,7 +52,7 @@ list:
   - name: Company 1
     icon:
       src: /icons/wannavi.svg
-      link: https://naver.com
+      link: https://www.wannavi.jobs
   - name: Company 2
     icon:
       src: /icons/class.svg

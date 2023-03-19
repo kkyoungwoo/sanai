@@ -26,7 +26,7 @@ images:
     alt: image alt text
 attributes:
   - label: Website Link
-    value: https://naver.com
+    value: https://www.wannavi.jobs
 ---
 
 ### 서비스 설명
@@ -59,7 +59,7 @@ attributes:
 
 ### 페이지 이동
 
-이 서비스의 웹사이트를 방문하고 싶다면 [홈페이지를 방문](https://naver.com)을 클릭해 주세요, 만약 다른 프로젝트를 보고 싶다면 [이전 페이지](../projects)로 이동해 주세요
+이 서비스의 웹사이트를 방문하고 싶다면 [홈페이지를 방문](https://www.wannavi.jobs)을 클릭해 주세요, 만약 다른 프로젝트를 보고 싶다면 [이전 페이지](../projects)로 이동해 주세요
 
 ---
 
