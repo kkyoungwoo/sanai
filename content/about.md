@@ -51,11 +51,11 @@ list:
 title: 개발 크루 우대사항
 list:
   - title: Next.js
-    level: 3
+    level: 4
     icon:
       src: /icons/nextjs.svg
   - title: TypeScript
-    level: 5
+    level: 4
     icon:
       src: /icons/typescript.svg
   - title: Nest.js
@@ -63,17 +63,17 @@ list:
     icon:
       src: /icons/nestjs.svg
   - title: PostgreSQL
-    level: 2
-    icon:
-      src: /icons/postgresql.svg
-  - title: Kakao I Cloud
     level: 3
     icon:
-      src: /icons/kakaocloud.svg
-  - title: Git
+      src: /icons/postgresql.svg
+  - title: NHN Cloud
+    level: 1
+    icon:
+      src: /icons/nhncloud.svg
+  - title: Copilot X
     level: 5
     icon:
-      src: /icons/git.svg
+      src: /icons/copilot.svg
 ---
 
 
@@ -93,7 +93,7 @@ list:
     icon:
       src: /icons/illustrator.svg
   - title: Photoshop
-    level: 3
+    level: 2
     icon:
       src: /icons/photoshop.svg
 ---
@@ -107,11 +107,11 @@ list:
 title: 마케팅 크루 우대사항
 list:
   - title: MS Teams
-    level: 3
+    level: 5
     icon:
       src: /icons/microsoft.svg
   - title: Power BI
-    level: 5
+    level: 3
     icon:
       src: /icons/powerbi.svg
   - title: GA4
@@ -123,7 +123,7 @@ list:
     icon:
       src: /icons/notion.svg
   - title: Miro
-    level: 3
+    level: 2
     icon:
       src: /icons/miro.svg
   - title: python
@@ -144,7 +144,7 @@ list:
     level: 5
     icon:
       src: /icons/time.svg
-  - title: 배우려는 의지
+  - title: 학습 의지
     level: 5
     icon:
       src: /icons/courage.svg
