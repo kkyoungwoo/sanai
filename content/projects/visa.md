@@ -1,12 +1,10 @@
 ---
 layout: Post
 title: 비자상담 솔루션
-description: 국내체류 외국인을 위한 비자 및 출입국 행정 컨설팅
+description: 외국인 비자 및 출입국 행정 컨설팅
 date: '2021-12-30'
 tags:
-  - photo-album
   - visa
-  - 출입국 비자 컨설팅
 logo:
   src: /icons/visachanger.svg
   alt: Company X

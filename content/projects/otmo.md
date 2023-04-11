@@ -1,12 +1,10 @@
 ---
 layout: Post
 title: 온라인 커머스 마케팅
-description: 유학생을 메인 타깃으로 설정한 외국인 구인구직 플랫폼
+description: 브랜딩 전문 에이전시
 date: '2023-04-01'
 tags:
-  - photo-album
   - otmo
-  - 브랜딩 전문 에이전시
 logo:
   src: /icons/otmo.svg
   alt: Company X
@@ -16,17 +14,9 @@ images:
     overlay:
       src: /projects/otmo-mobile.png
       alt: overlay image
-  - src: /projects/wannavi-2.png
-    alt: image alt text
-  - src: /projects/wannavi-3.png
-    alt: image alt text
-  - src: /projects/wannavi-4.png
-    alt: image alt text
-  - src: /projects/wannavi-5.png
-    alt: image alt text
 attributes:
   - label: Website Link
-    value: https://www.wannavi.jobs
+    value: https://otmo.kr/
 ---
 
 ### 서비스 설명

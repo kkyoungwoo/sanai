@@ -1,12 +1,10 @@
 ---
 layout: Post
 title: 외국인 개발자 아웃소싱
-description: 유학생을 메인 타깃으로 설정한 외국인 구인구직 플랫폼
+description: 올라운더 풀스택 개발자 아웃소싱
 date: '2023-05-01'
 tags:
-  - photo-album
   - hyperhire
-  - 올라운더 풀스택 개발
 logo:
   src: /icons/hyperhire.svg
   alt: Company X
@@ -16,17 +14,9 @@ images:
     overlay:
       src: /projects/hyperhire-mobile.png
       alt: overlay image
-  - src: /projects/wannavi-2.png
-    alt: image alt text
-  - src: /projects/wannavi-3.png
-    alt: image alt text
-  - src: /projects/wannavi-4.png
-    alt: image alt text
-  - src: /projects/wannavi-5.png
-    alt: image alt text
 attributes:
   - label: Website Link
-    value: https://www.wannavi.jobs
+    value: https://hyperhire.in/
 ---
 
 ### 서비스 설명

@@ -1,12 +1,10 @@
 ---
 layout: Post
 title: 외국인 합법 구인구직
-description: 유학생을 메인 타깃으로 설정한 외국인 구인구직 플랫폼
+description: 외국인 구인구직 플랫폼
 date: '2023-06-01'
 tags:
-  - photo-album
   - wannavi
-  - 외국인 구인구직 플랫폼
 logo:
   src: /icons/wannavi.svg
   alt: Company X
@@ -62,6 +60,10 @@ attributes:
 이 서비스의 웹사이트를 방문하고 싶다면 [홈페이지를 방문](https://www.wannavi.jobs)을 클릭해 주세요, 만약 다른 프로젝트를 보고 싶다면 [이전 페이지](../projects)로 이동해 주세요
 
 ---
+
+### 포트폴리오
+
+[활동 내역](../tags/wannavi)
 
 Internet service version:
 
