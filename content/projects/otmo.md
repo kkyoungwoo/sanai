@@ -1,20 +1,20 @@
 ---
 layout: Post
-title: 외국인 합법 구인구직
+title: 온라인 커머스 마케팅
 description: 유학생을 메인 타깃으로 설정한 외국인 구인구직 플랫폼
-date: '2023-06-01'
+date: '2023-04-01'
 tags:
   - photo-album
-  - wannavi
-  - 외국인 구인구직 플랫폼
+  - otmo
+  - 브랜딩 전문 에이전시
 logo:
-  src: /icons/wannavi.svg
+  src: /icons/otmo.svg
   alt: Company X
 images:
-  - src: /projects/wannavi-1.png
+  - src: /projects/otmo-1.png
     alt: image alt text
     overlay:
-      src: /projects/wannavi-mobile.png
+      src: /projects/otmo-mobile.png
       alt: overlay image
   - src: /projects/wannavi-2.png
     alt: image alt text
@@ -59,7 +59,7 @@ attributes:
 
 ### 페이지 이동
 
-이 서비스의 웹사이트를 방문하고 싶다면 [홈페이지를 방문](https://www.wannavi.jobs)을 클릭해 주세요, 만약 다른 프로젝트를 보고 싶다면 [이전 페이지](../projects)로 이동해 주세요
+이 서비스의 웹사이트를 방문하고 싶다면 [홈페이지를 방문](https://otmo.kr/)을 클릭해 주세요, 만약 다른 프로젝트를 보고 싶다면 [이전 페이지](../projects)로 이동해 주세요
 
 ---
 

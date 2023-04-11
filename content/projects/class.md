@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: Career CLASS
+title: 스타트업 마이크로러닝
 description: 대체할 수 없는 인재로 성장하기 위한 시크릿 커리어 클래스
 date: '2023-02-06'
 tags:

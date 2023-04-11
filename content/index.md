@@ -30,7 +30,7 @@ images:
 ---achievements
 - number: 1 +
   text: Crew
-- number: 3 +
+- number: 5 +
   text: Projects
 - number: 10 +
   text: partner
