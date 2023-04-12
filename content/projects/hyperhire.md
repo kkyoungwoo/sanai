@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: 외국인 개발자 아웃소싱
-description: 올라운더 풀스택 개발자 아웃소싱
+description: 검증된 올라운더 개발자, PM 아웃소싱
 date: '2023-05-01'
 tags:
   - hyperhire
@@ -10,26 +10,40 @@ logo:
   alt: Company X
 images:
   - src: /projects/hyperhire-1.png
-    alt: image alt text
+    alt: 하이퍼하이어 소개 1
     overlay:
       src: /projects/hyperhire-mobile.png
       alt: overlay image
+  - src: /projects/hyperhire-2.png
+    alt: 하이퍼하이어 소개 2
+  - src: /projects/hyperhire-3.png
+    alt: 하이퍼하이어 소개 3
+  - src: /projects/hyperhire-4.png
+    alt: 하이퍼하이어 소개 4
+  - src: /projects/hyperhire-5.png
+    alt: 하이퍼하이어 소개 5
 attributes:
   - label: Website Link
-    value: https://hyperhire.in/
+    value: https://hyperhire.in
 ---
 
 ### 서비스 설명
 
-`우수한 외국인 인재`를 합법적으로 구인하고 싶은 `기업`을 위해 취업과 
-비자를 원스톱으로 제공하는 인공지능 행정사가 탑재된 **외국인 구인구직 플랫폼**
+`우수한 외국인 개발자`를 통해 서비스를 빠르게 개발하고 싶은
 
-> 개발 완료
-> - ✔ 홈페이지 구축
+`기업`을 위해프로젝트 매니징과 경력자를 지원하는  **외국인 개발 아웃소싱 솔루션**
+
+> 서비스 특징
+> - ✔ 인도 위주 개발 인프라
+> - ✔ 시간약속과 실력 검증 솔루션
+> - ✔ 다양한 개발언어로 아웃소싱 가능
 
 > 개발 예정 기능
-> - ✔ 무료 전자 근로계약서
-> - ✔ 인공지능 행정사 챗봇
+> - ✔ 기획서,IA 설계 시스템
+> - ✔ 단순 견적 솔루션
+
+> 슬로건
+> - ✔ 신뢰를 주는 아웃소싱업체가 되겠습니다
 
 ---
 
@@ -37,13 +51,11 @@ attributes:
 
 소셜 미션을 달성하기 위한 서비스 타깃
 
-|서비스 이용자(고객) |서비스 종류  | 서비스 수혜자|
+|서비스 이용자 |서비스 종류 | 서비스 수혜자|
 |:--- | ---: | :---:|
-|소상공인,중소기업|구인|유학생, 졸업생|
-|유학생|구직|소상공인, 중소기업|
-|유학생|비자 상담|변호사, 행정사|
-|유학생|유학 지원|지방 대학교|
-|공공기관|통계 데이터 제공|워너비|
+|스타트업,중소기업|아웃소싱|해외 외국인 개발자|
+|스타트업,중소기업|원격 근무|해외 외국인 개발자|
+|스타트업,중소기업|정규직 근무|국내 외국인 개발자|
 
 ---
 
@@ -53,8 +65,12 @@ attributes:
 
 ---
 
+### 성과
+
+[포트폴리오 확인](../tags/hyperhire)
+
 Internet service version:
 
-- [ ] Web 1.0
-- [x] Web 2.0
+- [x] Web 1.0
+- [ ] Web 2.0
 - [ ] Web 3.0

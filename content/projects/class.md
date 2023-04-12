@@ -10,17 +10,21 @@ logo:
   alt: Company X
 images:
   - src: /projects/class-1.png
-    alt: image alt text
+    alt: 마이크로러닝 소개 1
     overlay:
       src: /projects/class-mobile.png
       alt: overlay image
   - src: /projects/class-2.png
-    alt: image alt text
+    alt: 마이크로러닝 소개 2
   - src: /projects/class-3.png
-    alt: image alt text
+    alt: 마이크로러닝 소개 3
+  - src: /projects/class-4.png
+    alt: 마이크로러닝 소개 4
+  - src: /projects/class-5.png
+    alt: 마이크로러닝 소개 5
 attributes:
   - label: Website Link
-    value: https://wannavi.liveklass.com/
+    value: https://wannavi.liveklass.com
 ---
 
 ### 서비스 설명
@@ -34,13 +38,13 @@ attributes:
 
 `다양한 커리어 옵션`으로 대체할 수 없는 인재가 될 수 있는 **커리어 전공수업**.
 
-> 개발 완료
-> - ✔ 강의 제작 및 업로드 완료
-
 > 서비스 특징
 > - ✔ 지루하지 않은 마이크로 러닝 학습
 > - ✔ 14개의 미션을 통한 능동 학습
-> - ✔ 미션의 주기적인 업데이트
+> - ✔ 꾸준한 미션 업데이트
+
+> 슬로건
+> - ✔ 어디에서도 배울 수 없는 커리어 약속합니다
 
 ---
 
@@ -48,9 +52,9 @@ attributes:
 
 소셜 미션을 달성하기 위한 서비스 타깃
 
-|서비스 이용자(고객) |서비스 종류  | 서비스 수혜자|
+|서비스 이용자 |서비스 종류 | 서비스 수혜자|
 |:--- | ---: | :---:|
-|워너비 크루|직원 교육|워너비|
+|신입 직원|커리어 클래스|관리자|
 
 ---
 
@@ -59,6 +63,10 @@ attributes:
 이 서비스의 웹사이트를 방문하고 싶다면 [홈페이지를 방문](https://wannavi.liveklass.com/)을 클릭해 주세요, 만약 다른 프로젝트를 보고 싶다면 [이전 페이지](../projects)로 이동해 주세요
 
 ---
+
+### 성과
+
+[포트폴리오 확인](../tags/class)
 
 Internet service version:
 

@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: 온라인 커머스 마케팅
-description: 브랜딩 전문 에이전시
+description: A to Z 브랜드 마케팅 에이전시
 date: '2023-04-01'
 tags:
   - otmo
@@ -10,26 +10,35 @@ logo:
   alt: Company X
 images:
   - src: /projects/otmo-1.png
-    alt: image alt text
+    alt: 오트모 소개 1
     overlay:
       src: /projects/otmo-mobile.png
       alt: overlay image
+  - src: /projects/otmo-2.png
+    alt: 오트모 소개 2
+  - src: /projects/otmo-3.png
+    alt: 오트모 소개 3
+  - src: /projects/otmo-4.png
+    alt: 오트모 소개 4
+  - src: /projects/otmo-5.png
+    alt: 오트모 소개 5
 attributes:
   - label: Website Link
-    value: https://otmo.kr/
+    value: https://otmo.kr
 ---
 
 ### 서비스 설명
 
-`우수한 외국인 인재`를 합법적으로 구인하고 싶은 `기업`을 위해 취업과 
-비자를 원스톱으로 제공하는 인공지능 행정사가 탑재된 **외국인 구인구직 플랫폼**
+`otmo(오트모)`는 좋은 콘텐츠를 위해 전문가 전담팀을 구성합니다. 대표님을 위한
+가성비 전문가 TEAM-UP 세팅 **오트모 마케팅 솔루션**
 
-> 개발 완료
-> - ✔ 홈페이지 구축
+> 서비스 특징
+> - ✔ 브랜딩 현재상태 무료진단
+> - ✔ 안전하고 정확한 정찰제 서비스
+> - ✔ 1명 채용비용으로 4명 고용효과
 
-> 개발 예정 기능
-> - ✔ 무료 전자 근로계약서
-> - ✔ 인공지능 행정사 챗봇
+> 슬로건
+> - ✔ 반드시 상품을 팔리게 만듭니다
 
 ---
 
@@ -37,13 +46,10 @@ attributes:
 
 소셜 미션을 달성하기 위한 서비스 타깃
 
-|서비스 이용자(고객) |서비스 종류  | 서비스 수혜자|
+|서비스 이용자 |서비스 종류 | 서비스 수혜자|
 |:--- | ---: | :---:|
-|소상공인,중소기업|구인|유학생, 졸업생|
-|유학생|구직|소상공인, 중소기업|
-|유학생|비자 상담|변호사, 행정사|
-|유학생|유학 지원|지방 대학교|
-|공공기관|통계 데이터 제공|워너비|
+|소상공인,중소기업|마케팅|가망고객,타깃고객|
+|예비창업자|브랜딩|가망고객,타깃고객|
 
 ---
 
@@ -53,8 +59,12 @@ attributes:
 
 ---
 
+### 성과
+
+[포트폴리오 확인](../tags/otmo)
+
 Internet service version:
 
-- [ ] Web 1.0
-- [x] Web 2.0
+- [x] Web 1.0
+- [ ] Web 2.0
 - [ ] Web 3.0

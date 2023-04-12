@@ -76,7 +76,7 @@ const ProjectCardHorizontal = ({
       {tags && (
         <>
           <div className="mt-2">
-          <div className="mb-2 mt-6 font-bold dark:text-accent-400">Sanai Blog &#x2935;</div>
+          <div className="mb-2 mt-6 font-bold dark:text-accent-400">포트폴리오 확인 &#x2935;</div>
             {tags?.map((tag) => (
               <Tag key={tag.title} slug={tag.slug} className="m-0.5 font-mono text-sm lg:mr-2">
                 {tag.title}

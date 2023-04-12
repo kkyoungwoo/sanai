@@ -10,18 +10,18 @@ logo:
   alt: Company X
 images:
   - src: /projects/wannavi-1.png
-    alt: image alt text
+    alt: 워너비 소개 1
     overlay:
       src: /projects/wannavi-mobile.png
       alt: overlay image
   - src: /projects/wannavi-2.png
-    alt: image alt text
+    alt: 워너비 소개 2
   - src: /projects/wannavi-3.png
-    alt: image alt text
+    alt: 워너비 소개 3
   - src: /projects/wannavi-4.png
-    alt: image alt text
+    alt: 워너비 소개 4
   - src: /projects/wannavi-5.png
-    alt: image alt text
+    alt: 워너비 소개 5
 attributes:
   - label: Website Link
     value: https://www.wannavi.jobs
@@ -32,12 +32,17 @@ attributes:
 `우수한 외국인 인재`를 합법적으로 구인하고 싶은 `기업`을 위해 취업과 
 비자를 원스톱으로 제공하는 인공지능 행정사가 탑재된 **외국인 구인구직 플랫폼**
 
-> 개발 완료
-> - ✔ 홈페이지 구축
+> 서비스 특징
+> - ✔ 무료 행정상담
+> - ✔ 다국어 번역
+> - ✔ 합법 취업 알고리즘
 
 > 개발 예정 기능
 > - ✔ 무료 전자 근로계약서
 > - ✔ 인공지능 행정사 챗봇
+
+> 슬로건
+> - ✔ 모든 업종에서 인력난을 해결하겠습니다
 
 ---
 
@@ -45,7 +50,7 @@ attributes:
 
 소셜 미션을 달성하기 위한 서비스 타깃
 
-|서비스 이용자(고객) |서비스 종류  | 서비스 수혜자|
+|서비스 이용자 |서비스 종류 | 서비스 수혜자|
 |:--- | ---: | :---:|
 |소상공인,중소기업|구인|유학생, 졸업생|
 |유학생|구직|소상공인, 중소기업|
@@ -61,9 +66,9 @@ attributes:
 
 ---
 
-### 포트폴리오
+### 성과
 
-[활동 내역](../tags/wannavi)
+[포트폴리오 확인](../tags/wannavi)
 
 Internet service version:
 

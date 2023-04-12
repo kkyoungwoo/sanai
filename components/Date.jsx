@@ -12,8 +12,9 @@ const DateComponent = (props) => {
     <dl className={className} {...rest}>
       <dt className="sr-only">Published on</dt>
       <dd className="inline">
-        <time dateTime={date}>
-          {dateObj.toLocaleDateString(config.dateLocale, config.dateOptions)}
+        <time>
+        {/*<time dateTime={date}>
+          {dateObj.toLocaleDateString(config.dateLocale, config.dateOptions)}*/}
         </time>
       </dd>
     </dl>
