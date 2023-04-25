@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: 포트폴리오 1
+title: 포트폴리오
 description: 온라인 커머스
 date: '2023-01-02'
 tags:

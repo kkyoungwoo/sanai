@@ -155,6 +155,9 @@ list:
 ---history[0]
 title: Investment Round
 list:
+  - name: 창업중심대학(예비창업자)
+    description: 중앙정부 지원사업 합격
+    date: 2023-5
   - name: 데모데이 준비중
     description: Seed
     date: 2023-4
@@ -165,6 +168,9 @@ list:
 ---history[1]
 title: Award Details
 list:
+  - name: 대구 북구 청년창업경진대회
+    description: 동상
+    date: 2023-4
   - name: 스타트업 프론티어
     description: 우수상
     date: 2023-2

@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: 포트폴리오 1
+title: 포트폴리오
 description: 하이퍼 하이어
 date: '2023-01-02'
 tags:
