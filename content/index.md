@@ -1,7 +1,7 @@
 ---
 layout: Home
 seo:
-  title: Home
+  title: 사나이클럽
   description: 사나이클럽에 오신것을 환영합니다
 ---
 

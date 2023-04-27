@@ -67,8 +67,8 @@ export const config = {
   },
   contactForm: {
     inputs: require('./content/contact-form.json'),
-    recipient: 'bizdb@naver.com',
-    sender: 'bizdb@naver.com',
+    recipient: 'sanai_help@naver.com',
+    sender: 'sanai_help@naver.com',
     subject: 'EMAIL NOTIFICATION SUBJECT',
   },
 }
@@ -93,12 +93,12 @@ export const mdxConfig = {
 
 export const siteMetaData = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || process.env.VERCEL_URL || 'http://localhost:3000',
-  authorName: 'Sanai Club',
+  authorName: '사나이클럽',
   siteName: '사나이클럽',
-  defaultTitle: 'Sanai Club Company',
-  titleTemplate: 'Sanai Club | %s',
+  defaultTitle: '사나이클럽 주식회사',
+  titleTemplate: '사나이클럽 | %s',
   description: '사나이클럽으로 초대합니다',
-  email: 'bizdb@naver.com',
+  email: 'sanai_help@naver.com',
   locale: 'ko',
   twitter: {
     handle: '@handle',

@@ -150,10 +150,11 @@ const Contact01 = ({ main = {} }) => {
                 <div style={{
                     margin: "10px 20px",
                     width: "100%",
-                    fontWeight: "bold"
+                    fontWeight: "bold",
+                    display: "none"
                   }}>기타 파일첨부 (Up to 500KB)
                 </div>
-                <div>
+                <div style={{display: "none"}}>
                   <input style={{
                       margin: "10px 20px",
                       width: "59%"
