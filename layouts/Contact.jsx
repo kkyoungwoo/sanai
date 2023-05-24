@@ -81,10 +81,10 @@ const Contact01 = ({ main = {} }) => {
       e.preventDefault()
       emailjs
         .sendForm(
-          "service_thek_form",
-          "template_66hgnxe",
+          "service_jde2c6d",
+          "template_wcob5dh",
           e.target,
-          "user_YOvzVUT3C3OBySLzLPves"
+          "k3SwW8-jUq-GVrmk7"
         )
       if (res.status === 201) {
         return false

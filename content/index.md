@@ -15,7 +15,7 @@ images:
 
 ## <Typewriter>Sanai Club Inc.</Typewriter>
 
-# <span>(주)</span> *사나이클럽*
+# *사나이클럽*
 
 <Sep size={12} />
 
